@@ -2,7 +2,12 @@
     display: flex;
     flex-direction: column;
 }
-
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
 
 @media only screen and (max-width: 600px) {
     .form-registro{
