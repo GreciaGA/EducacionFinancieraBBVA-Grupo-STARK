@@ -1,0 +1,13 @@
+h2{
+    text-align: center;
+}
+.row .col .card a:hover{
+    opacity: 0.8;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+

@@ -1,0 +1,13 @@
+.form-registro{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .form-registro{
+        flex-direction: row;
+    }
+    
+
+}
