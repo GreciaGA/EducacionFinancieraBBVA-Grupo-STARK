@@ -1,6 +1,8 @@
-.container-quieroestarasegurado{
-    /* text-align: center; */
+.container-quieroestarasegurado,
+.container-iniciacurso{
+    text-align: center;
 }
+
 
 h1{
     text-align: center;
@@ -19,6 +21,12 @@ h1{
     height:"315";
 }
 
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
 
 @media only screen and (max-width: 600px) {
     .container-video iframe{ 
