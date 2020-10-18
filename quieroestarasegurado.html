@@ -9,13 +9,14 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css">
     <link rel="stylesheet" href="css/estilos.css" class="rel">
+    <link rel="stylesheet" href="" class="rel">
 </head>
 
 <body>
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img style="width: 12vw;" src="img/Logo-BBVA.jpg" alt=""></a>
+        <a class="navbar-brand" href="#"><img style="width: 12vw;" src="../simg/Logo-BBVA.jpg" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,7 +25,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Préstamos</a>
@@ -46,14 +47,17 @@
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <button class="btn btn-outline-primary my-2 my-sm-0" type="button">Unete a BBVA</button>
+                <button class="btn btn-outline-primary my-2 my-sm-0" id="btnRegresar" type="button">Regresar</button>
             </form>
         </div>
     </nav>
 
     <!-- CONTENIDO DE LA PÁGINA -->
-
-
+   
+    <div class="container container-quieroestarasegurado">
+        <h1> Acompañame a ver este video</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3nFkflQUnnQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        <video src=""></video>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -61,6 +65,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
-
+    <script src="../js/quieroestarasegurado.js"></script>
 </body>
 </html>

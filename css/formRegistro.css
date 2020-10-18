@@ -1,6 +1,23 @@
+h1,h3{
+    text-align: center;
+}
+
 .form-registro{
+    background-color: 0000cd;
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.form-registro .form-group input{
+    width: 400px;
+}
+#form-registro-btnregistrar{
+    background-color: 0000CD;
 }
 .show{
     display: block;
@@ -9,10 +26,8 @@
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     .form-registro{
-        flex-direction: row;
-    }
-    
-
-}
+        
+    } 
+} */

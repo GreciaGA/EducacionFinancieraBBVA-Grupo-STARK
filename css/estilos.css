@@ -63,17 +63,22 @@ i p{
     margin: 10px;
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-between;
 }
 
 .footer-margin-links{
     margin: 20px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .my-footer .card{
     background: 0000CD;
     /* color: white; */
+}
+.img-fondor-footer{
+    height: 350px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -84,7 +89,6 @@ i p{
     .containder-flaticon-personalizando svg{
         width: 30px;
         margin: 10px;
-    
     }
 
     .card .footer-margin{
@@ -95,5 +99,8 @@ i p{
 
     .carousel-inner .carousel-item img{
         height: 250px;
+    }
+    .img-fondor-footer{
+        height: 620px;
     }
 }
