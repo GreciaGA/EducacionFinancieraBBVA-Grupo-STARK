@@ -26,8 +26,8 @@ h1,h3{
     display: none;
 }
 
-/* @media only screen and (max-width: 600px) {
-    .form-registro{
-        
-    } 
-} */
+@media only screen and (max-width: 600px) {
+    .form-registro .form-group input{
+        max-width: 300px;
+    }
+} 

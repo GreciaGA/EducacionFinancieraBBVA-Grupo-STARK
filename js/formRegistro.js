@@ -16,6 +16,6 @@ formBtnregistrar.addEventListener('click',()=>{
     inputEmailRegistro = "";
     inputPasswordRegistro = "";
     inputConfirmPasswordRegistro = "";
-    window.open("quieroestarasegurado.html");
+    window.open("./iniciacursoeducfinanciera.html");
    
 })

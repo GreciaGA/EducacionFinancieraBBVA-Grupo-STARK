@@ -9,7 +9,7 @@ const btnUneteaBBVA = document.getElementById('btnUneteaBBVA');
 
 btnUneteaBBVA.addEventListener('click', ()=>{
     console.log("ocultate form");
-    window.open("formRegistro.html");
+    window.open("./formRegistro.html");
 })
 
 
