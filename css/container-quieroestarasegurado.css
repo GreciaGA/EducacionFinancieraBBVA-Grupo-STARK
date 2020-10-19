@@ -3,7 +3,6 @@
     text-align: center;
 }
 
-
 h1{
     text-align: center;
 }
@@ -27,9 +26,16 @@ h1{
 .hide{
     display: none;
 }
+.certificado-bbva{
+    max-width: 400px;
+}
 
 @media only screen and (max-width: 600px) {
     .container-video iframe{ 
         max-width: 300px;
     }
+    .certificado-bbva{
+        max-width: 200px;
+    }
+
 } 
